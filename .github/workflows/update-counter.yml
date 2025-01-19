@@ -25,4 +25,4 @@ jobs:
           git config user.email "jordanpkelsey1@gmail.com"
           git add counter.txt
           git commit -m "Incremented counter to $(cat counter.txt)"
-          git push https://$PAT_TOKEN@github.com/ProgramStuff/daily-worker.git HEAD:main
+          git push https://$PAT_TOKEN@github.com/ProgramStuff/Daily_Worker.git HEAD:main
